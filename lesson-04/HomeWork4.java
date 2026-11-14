@@ -47,7 +47,11 @@ public class HomeWork4 {
                 } else if ("*".equals(act)) {
                     System.out.println("Результат: " + (a * b));
                 } else if ("/".equals(act)) {
-                    System.out.println("Результат: " + (a / b));
+                    if (b != 0) {
+                        System.out.println("Результат: " + (a / b));
+                    } else {
+                        System.out.println("Деление на 0 нельзя!");
+                    }
                 } else {
                     System.out.println("Не правильно введен оператор");
                 }
