@@ -11,8 +11,8 @@ public class ClassWork7 {
 //        int [] score = {95, 10, 20};
 ////        int [] score1 = new int[3];
 ////        System.out.println("Значение массива = " + score[2]);
-//        System.out.println("toString массива = " + score.toString());
-//        System.out.println("length массива = " + score.length);
+ //       System.out.println("toString массива = " + score.toString());
+ //       System.out.println("length массива = " + score.length);
 //
 //        for (int i=0;i<score.length;i++) {
 //            System.out.println("Значение массива = " + score[i]);
@@ -55,36 +55,36 @@ public class ClassWork7 {
 //            System.out.println();
 //        }
 
-        int[][] a = {
-                {0, 0, 0, 0},
-                {0, 0, 0, 0},
-                {0, 0, 0, 0}
-        };
-        boolean notResult = true;
-        Scanner scanner = new Scanner(System.in);
-        while (notResult) {
-            System.out.print("Введите ряд: ");
-            int r = Integer.parseInt(scanner.nextLine()) - 1;
-            System.out.print("Введите место: ");
-            int m = Integer.parseInt(scanner.nextLine()) - 1;
-                if (r >= 0 &&
-                    m >= 0 &&
-                    r < a.length &&
-                    m < a[r].length) {
-            if (a[r][m] == 0) {
-                a[r][m] = 1;
-                notResult = false;
-            } else {
-                System.out.println("Выбранное место занято. Попробуйте еще раз!");
-            }}
-        }
-
-
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a[i].length; j++) {
-                System.out.print(a[i][j] + " ");
-            }
-            System.out.println();
-        }
+//        int[][] a = {
+//                {0, 0, 0, 0},
+//                {0, 0, 0, 0},
+//                {0, 0, 0, 0}
+//        };
+//        boolean notResult = true;
+//        Scanner scanner = new Scanner(System.in);
+//        while (notResult) {
+//            System.out.print("Введите ряд: ");
+//            int r = Integer.parseInt(scanner.nextLine()) - 1;
+//            System.out.print("Введите место: ");
+//            int m = Integer.parseInt(scanner.nextLine()) - 1;
+//                if (r >= 0 &&
+//                    m >= 0 &&
+//                    r < a.length &&
+//                    m < a[r].length) {
+//            if (a[r][m] == 0) {
+//                a[r][m] = 1;
+//                notResult = false;
+//            } else {
+//                System.out.println("Выбранное место занято. Попробуйте еще раз!");
+//            }}
+//        }
+//
+//
+//        for (int i = 0; i < a.length; i++) {
+//            for (int j = 0; j < a[i].length; j++) {
+//                System.out.print(a[i][j] + " ");
+//            }
+//            System.out.println();
+//        }
     }
 }
